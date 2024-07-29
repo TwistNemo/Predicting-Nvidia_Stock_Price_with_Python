@@ -67,5 +67,9 @@ cd nvidia-stock-price-prediction
 <p>By following these steps, anyone can replicate the process and run the code to predict NVIDIA's stock price.</p>
 
 <hr>
+<h3>Screenshot of code running in the git repo
+    ![image](https://github.com/user-attachments/assets/d7f6ae47-c1d3-4503-ad49-0b2a814f798f)
+
+</h3>
 
 
