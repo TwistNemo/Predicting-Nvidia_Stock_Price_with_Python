@@ -31,6 +31,7 @@
 
 <h2 id="limitations-of-the-model">Limitations of the Model</h2>
 <ul>
+    <li><strong>Overfitting:</strong> The model shows good performance on training data but has high error rates on testing data, indicating overfitting.</li>
     <li><strong>Limited Feature Engineering:</strong> The model primarily uses basic lag features and rolling statistics, missing out on other influential factors like market sentiment and economic indicators.</li>
     <li><strong>Data Quality and Quantity:</strong> The dataset may have limitations in terms of length, granularity, and completeness, impacting the model's performance.</li>
 </ul>
@@ -38,4 +39,34 @@
 <h2 id="potential-improvements">Potential Improvements</h2>
 <ul>
     <li><strong>Regularization and Hyperparameter Tuning:</strong> Implement regularization techniques (e.g., dropout) and perform extensive hyperparameter tuning to reduce overfitting.</li>
-    <li><strong>Enhanced Feature Engineering:</strong> Incorporate additional features such as trading volume, technical indicators
+    <li><strong>Enhanced Feature Engineering:</strong> Incorporate additional features such as trading volume, technical indicators, and sentiment analysis from news and social media.</li>
+    <li><strong>Data Augmentation:</strong> Improve data quality and quantity by including more historical data and ensuring the dataset is clean and comprehensive.</li>
+</ul>
+
+<h2 id="how-to-run-the-code">How to Run the Code</h2>
+<p>To run the code, follow these steps:</p>
+<ol>
+    <li><strong>Clone the Repository:</strong>
+        <pre><code>git clone https://github.com/yourusername/nvidia-stock-price-prediction.git
+cd nvidia-stock-price-prediction
+</code></pre>
+    </li>
+    <li><strong>Open the Notebook in Google Colab:</strong>
+        <ul>
+            <li>Go to <a href="https://colab.research.google.com/">Google Colab</a>.</li>
+            <li>Upload the Jupyter notebook (<code>Predicting_NVIDIA_Stock_Price_with_Python_By_Tanjela.ipynb</code>) from this repository.</li>
+        </ul>
+    </li>
+    <li><strong>Install Required Libraries:</strong>
+        <p>In the first cell of the notebook, ensure you have the required libraries installed. If not, install them using:</p>
+        <pre><code>!pip install pandas numpy matplotlib seaborn scikit-learn tensorflow</code></pre>
+    </li>
+    <li><strong>Run the Notebook:</strong>
+        <p>Execute each cell in the notebook sequentially and follow the instructions within the notebook for any specific configurations or data preprocessing steps.</p>
+    </li>
+</ol>
+<p>By following these steps, you can replicate the process and run the code to predict NVIDIA's stock price.</p>
+
+<hr>
+
+
