@@ -31,7 +31,6 @@
 
 <h2 id="limitations-of-the-model">Limitations of the Model</h2>
 <ul>
-    <li><strong>Overfitting:</strong> The model shows good performance on training data but has high error rates on testing data, indicating overfitting.</li>
     <li><strong>Limited Feature Engineering:</strong> The model primarily uses basic lag features and rolling statistics, missing out on other influential factors like market sentiment and economic indicators.</li>
     <li><strong>Data Quality and Quantity:</strong> The dataset may have limitations in terms of length, granularity, and completeness, impacting the model's performance.</li>
 </ul>
