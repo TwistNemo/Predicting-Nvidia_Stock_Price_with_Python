@@ -19,3 +19,17 @@ Once trained, the model's performance is evaluated on both the training and test
 <p>
 The final section focuses on visualizing the results. Actual vs. predicted stock prices are plotted to visually assess the model's performance. Separate plots are created for training and testing periods, with clear markers indicating actual values and predictions. The visualization includes annotations for the train/test split and other relevant details to enhance interpretability. This step provides a comprehensive view of how well the model captures the stock's trends and patterns, highlighting areas of accurate prediction and potential discrepancies.
 </p>
+
+<h3>Limitations of the Model</h3>
+<ul>
+  <li><strong>Overfitting:</strong> The model shows good performance on training data but has high error rates on testing data, indicating overfitting.</li>
+  <li><strong>Limited Feature Engineering:</strong> The model primarily uses basic lag features and rolling statistics, missing out on other influential factors like market sentiment and economic indicators.</li>
+  <li><strong>Data Quality and Quantity:</strong> The dataset may have limitations in terms of length, granularity, and completeness, impacting the model's performance.</li>
+</ul>
+
+<h3>Potential Improvements</h3>
+<ul>
+  <li><strong>Regularization and Hyperparameter Tuning:</strong> Implement regularization techniques (e.g., dropout) and perform extensive hyperparameter tuning to reduce overfitting.</li>
+  <li><strong>Enhanced Feature Engineering:</strong> Incorporate additional features such as trading volume, technical indicators, and sentiment analysis from news and social media.</li>
+  <li><strong>Data Augmentation:</strong> Improve data quality and quantity by including more historical data and ensuring the dataset is clean and comprehensive.</li>
+</ul>
